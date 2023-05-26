@@ -1,4 +1,5 @@
 import styles from './page.module.css';
+import Button from '_@shared/components/button';
 
 export default async function Index() {
   /*
@@ -8,6 +9,7 @@ export default async function Index() {
    */
   return (
     <div className={styles.page}>
+      <Button/>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
