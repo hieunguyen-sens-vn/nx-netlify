@@ -37,6 +37,13 @@
         }
       }
     },
+    "start": {
+      "executor": "@nx/next:server",
+      "options": {
+        "buildTarget": "landing:build:production",
+        "dev": false
+      }
+    },
     "export": {
       "executor": "@nx/next:export",
       "options": {
